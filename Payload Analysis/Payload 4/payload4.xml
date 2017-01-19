@@ -1,0 +1,140 @@
+
+<messages>
+<CustomCreateRepairOrderAppReqMsg>
+<part  name="to">
+<To/>
+</part>
+<part  name="body">
+<xxRepairSalesOrder>
+<qcom:dsSessionContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>QAD</qcom:propertyQualifier>
+<qcom:propertyName>version</qcom:propertyName>
+<qcom:propertyValue>eB_6</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>wsaTo</qcom:propertyName>
+<qcom:propertyValue>urn:services-qad-com:QXIasc1mfg</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>EndpointURI</qcom:propertyName>
+<qcom:propertyValue>http://ascqa.tcc.etn.com:8081/asc1qxi163/services/QdocWebService</qcom:propertyValue>
+</qcom:ttContext>
+</qcom:dsSessionContext>
+<qsvc:dsRepairSalesOrder>
+<qsvc:RepairSalesOrder>
+<qsvc:soNbr>C232929</qsvc:soNbr>
+<qsvc:lUpd>true</qsvc:lUpd>
+<qsvc:LineItem>
+<qsvc:line>1</qsvc:line>
+<qsvc:sodLog01>true</qsvc:sodLog01>
+<qsvc:auxWarrDenReason>FALSE</qsvc:auxWarrDenReason>
+</qsvc:LineItem>
+<qsvc:Picklist>
+<qsvc:dev>nowhere</qsvc:dev>
+</qsvc:Picklist>
+</qsvc:RepairSalesOrder>
+</qsvc:dsRepairSalesOrder>
+</xxRepairSalesOrder>
+</part>
+<part  name="messageID">
+<MessageID/>
+</part>
+<part  name="replyTo">
+<ReplyTo/>
+</part>
+<part  name="action">
+<Action/>
+</part>
+<part  name="referenceParameters">
+<ReferenceParameters/>
+</part>
+</CustomCreateRepairOrderAppReqMsg>
+<CustomCreateRepairOrderAppRespMsg>
+<part  name="to">
+<wsa:To  soapenv:actor=""  soapenv:mustUnderstand="0"/>
+</part>
+<part  name="body">
+<ns1:xxRepairSalesOrderResponse>
+<ns1:result>warning</ns1:result>
+<qcom:dsSessionContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>QAD</qcom:propertyQualifier>
+<qcom:propertyName>version</qcom:propertyName>
+<qcom:propertyValue>eB_6</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>wsaTo</qcom:propertyName>
+<qcom:propertyValue>urn:services-qad-com:QXIasc1mfg</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>EndpointURI</qcom:propertyName>
+<qcom:propertyValue>http://ascqa.tcc.etn.com:8081/asc1qxi163/services/QdocWebService</qcom:propertyValue>
+</qcom:ttContext>
+</qcom:dsSessionContext>
+<ns2:dsExceptions>
+<ns2:temp_err_msg>
+<ns2:tt_level  xsi:nil="true"/>
+<ns2:tt_msg_context>RepairSalesOrder#1(soNbr-C232929)</ns2:tt_msg_context>
+<ns2:tt_msg_data/>
+<ns2:tt_msg_datetime>2017-01-12T09:56:14-0500</ns2:tt_msg_datetime>
+<ns2:tt_msg_desc>WARNING: Customer balance 151,502.95.</ns2:tt_msg_desc>
+<ns2:tt_msg_field/>
+<ns2:tt_msg_index>0</ns2:tt_msg_index>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_nbr>MfgProWarningMessage</ns2:tt_msg_nbr>
+<ns2:tt_msg_processed>false</ns2:tt_msg_processed>
+<ns2:tt_msg_sev>warning</ns2:tt_msg_sev>
+</ns2:temp_err_msg>
+<ns2:temp_err_msg>
+<ns2:tt_level  xsi:nil="true"/>
+<ns2:tt_msg_context>RepairSalesOrder#1(soNbr-C232929)</ns2:tt_msg_context>
+<ns2:tt_msg_data/>
+<ns2:tt_msg_datetime>2017-01-12T09:56:14-0500</ns2:tt_msg_datetime>
+<ns2:tt_msg_desc>WARNING: Customer balance plus this order 151,503.95.</ns2:tt_msg_desc>
+<ns2:tt_msg_field/>
+<ns2:tt_msg_index>1</ns2:tt_msg_index>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_nbr>MfgProWarningMessage</ns2:tt_msg_nbr>
+<ns2:tt_msg_processed>false</ns2:tt_msg_processed>
+<ns2:tt_msg_sev>warning</ns2:tt_msg_sev>
+</ns2:temp_err_msg>
+</ns2:dsExceptions>
+<ns1:dsRepairSalesOrderResponse>
+<ns1:RepairSalesOrder>
+<ns1:soNbr>C232929</ns1:soNbr>
+<ns1:LineItem>
+<ns1:soNbr>C232929</ns1:soNbr>
+</ns1:LineItem>
+<ns1:Picklist>
+<ns1:soNbr>C232929</ns1:soNbr>
+</ns1:Picklist>
+</ns1:RepairSalesOrder>
+</ns1:dsRepairSalesOrderResponse>
+</ns1:xxRepairSalesOrderResponse>
+</part>
+<part  name="messageID">
+<wsa:MessageID  soapenv:actor=""  soapenv:mustUnderstand="0">urn:messages-qad-com:2017-01-12T09:56:14-0500</wsa:MessageID>
+</part>
+<part  name="action">
+<wsa:Action  soapenv:actor=""  soapenv:mustUnderstand="0"/>
+</part>
+<part  name="relatesTo">
+<wsa:RelatesTo  soapenv:actor=""  soapenv:mustUnderstand="0"/>
+</part>
+</CustomCreateRepairOrderAppRespMsg>
+</messages>

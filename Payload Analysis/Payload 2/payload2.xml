@@ -1,0 +1,112 @@
+<messages>
+<maintainItemMasterReq>
+<part  name="to">
+<To/>
+</part>
+<part  name="body">
+<maintainItemMaster>
+<qcom:dsSessionContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>QAD</qcom:propertyQualifier>
+<qcom:propertyName>version</qcom:propertyName>
+<qcom:propertyValue>eB_3</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>wsaTo</qcom:propertyName>
+<qcom:propertyValue>urn:services-qad-com:QXIheu1mfg</qcom:propertyValue>
+</qcom:ttContext>
+
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>EndpointURI</qcom:propertyName>
+<qcom:propertyValue>http://heuqa.tcc.etn.com:8081/heu1qxi163/services/QdocWebService</qcom:propertyValue>
+</qcom:ttContext>
+</qcom:dsSessionContext>
+<qsvc:dsItemMaster>
+<qsvc:itemMaster>
+<qsvc:ptPart>402AA00030A</qsvc:ptPart>
+<qsvc:ptUm>EA</qsvc:ptUm>
+<qsvc:ptDesc1>1PS60P35S</qsvc:ptDesc1>
+<qsvc:ptDesc2>SEQUENCE CARTRIDGE PILOT</qsvc:ptDesc2>
+<qsvc:ptProdLine>3518</qsvc:ptProdLine>
+<qsvc:ptPartType>CVDREXX</qsvc:ptPartType>
+<qsvc:ptStatus>AC</qsvc:ptStatus>
+<qsvc:ptRev>F</qsvc:ptRev>
+<qsvc:ptAbc>C</qsvc:ptAbc>
+<qsvc:ptNetWt>0.16</qsvc:ptNetWt>
+<qsvc:ptNetWtUm>KG</qsvc:ptNetWtUm>
+</qsvc:itemMaster>
+</qsvc:dsItemMaster>
+</maintainItemMaster>
+</part>
+<part  name="messageID">
+<MessageID/>
+</part>
+<part  name="replyTo">
+<ReplyTo/>
+</part>
+<part  name="action">
+<Action/>
+</part>
+<part  name="referenceParameters">
+<ReferenceParameters/>
+</part>
+</maintainItemMasterReq>
+<maintainItemMasterResp>
+<part  name="to">
+<wsa:To  soapenv:actor=""  soapenv:mustUnderstand="0"/>
+</part>
+<part  name="body">
+<ns1:maintainItemMasterResponse>
+<ns1:result>warning</ns1:result>
+<qcom:dsSessionContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>QAD</qcom:propertyQualifier>
+<qcom:propertyName>version</qcom:propertyName>
+<qcom:propertyValue>eB_3</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>wsaTo</qcom:propertyName>
+<qcom:propertyValue>urn:services-qad-com:QXIheu1mfg</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>EndpointURI</qcom:propertyName>
+<qcom:propertyValue>http://heuqa.tcc.etn.com:8081/heu1qxi163/services/QdocWebService</qcom:propertyValue>
+</qcom:ttContext>
+</qcom:dsSessionContext>
+<ns2:dsExceptions>
+<ns2:temp_err_msg>
+<ns2:tt_level  xsi:nil="true"/>
+<ns2:tt_msg_context>itemMaster#1(ptPart-402AA00030A)</ns2:tt_msg_context>
+<ns2:tt_msg_data/>
+<ns2:tt_msg_datetime>2017-01-13T07:46:13+0000</ns2:tt_msg_datetime>
+<ns2:tt_msg_desc>WARNING: Location Master does not exist.</ns2:tt_msg_desc>
+<ns2:tt_msg_field/>
+<ns2:tt_msg_index>0</ns2:tt_msg_index>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_keys/>
+<ns2:tt_msg_nbr>MfgProWarningMessage</ns2:tt_msg_nbr>
+<ns2:tt_msg_processed>false</ns2:tt_msg_processed>
+<ns2:tt_msg_sev>warning</ns2:tt_msg_sev>
+</ns2:temp_err_msg>
+</ns2:dsExceptions>
+</ns1:maintainItemMasterResponse>
+</part>
+<part  name="messageID">
+<wsa:MessageID  soapenv:actor=""  soapenv:mustUnderstand="0">urn:messages-qad-com:2017-01-13T07:46:14+0000</wsa:MessageID>
+</part>
+<part  name="action">
+<wsa:Action  soapenv:actor=""  soapenv:mustUnderstand="0"/>
+</part>
+<part  name="relatesTo">
+<wsa:RelatesTo  soapenv:actor=""  soapenv:mustUnderstand="0"/>
+</part>
+</maintainItemMasterResp>
+</messages>

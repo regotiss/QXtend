@@ -1,0 +1,145 @@
+<messages>
+<QueryMasterCommentsAppReqMsg>
+<part  name="to">
+<To/>
+</part>
+<part  name="body">
+<queryXxMasterComments>
+<qcom:dsSessionContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>QAD</qcom:propertyQualifier>
+<qcom:propertyName>version</qcom:propertyName>
+<qcom:propertyValue>eB_1</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>QAD</qcom:propertyQualifier>
+<qcom:propertyName>domain</qcom:propertyName>
+<qcom:propertyValue/>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>EndpointURI</qcom:propertyName>
+<qcom:propertyValue>http://ascqa.tcc.etn.com:8081/asc1qxi163/services/QdocWebService</qcom:propertyValue>
+</qcom:ttContext>
+<qcom:ttContext>
+<qcom:propertyQualifier>OSB</qcom:propertyQualifier>
+<qcom:propertyName>wsaTo</qcom:propertyName>
+<qcom:propertyValue>urn:services-qad-com:aspgqueryqxi</qcom:propertyValue>
+</qcom:ttContext>
+</qcom:dsSessionContext>
+<qsvc:dsQueryServiceRequest>
+<qsvc:QueryServiceRequest>
+<qsvc:SourceApplication>QXOasc1mfg</qsvc:SourceApplication>
+<qsvc:Profile>xxMasterComments</qsvc:Profile>
+<qsvc:Filter>cd_ref BEGINS '58R-southfed'</qsvc:Filter>
+<qsvc:MaxRows>99</qsvc:MaxRows>
+<qsvc:IgnoreBOFilter>true</qsvc:IgnoreBOFilter>
+<qsvc:IgnoreBOInnerJoin>true</qsvc:IgnoreBOInnerJoin>
+</qsvc:QueryServiceRequest>
+</qsvc:dsQueryServiceRequest>
+</queryXxMasterComments>
+</part>
+<part  name="messageID">
+<MessageID/>
+</part>
+<part  name="replyTo">
+<ReplyTo/>
+</part>
+<part  name="action">
+<Action/>
+</part>
+<part  name="referenceParameters">
+<ReferenceParameters/>
+</part>
+</QueryMasterCommentsAppReqMsg>
+<QueryMasterCommentsAppRespMsg>
+<part  name="to">
+<wsa:To  soapenv:actor=""  soapenv:mustUnderstand="0">urn:services-qad-com:</wsa:To>
+</part>
+<part  name="body">
+<ns1:queryXxMasterCommentsResponse>
+<ns1:result>success</ns1:result>
+<ns2:dsSessionContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>OSB</ns2:propertyQualifier>
+<ns2:propertyName>EndpointURI</ns2:propertyName>
+<ns2:propertyValue>http://ascqa.tcc.etn.com:8081/asc1qxi163/services/QdocWebService</ns2:propertyValue>
+</ns2:ttContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>OSB</ns2:propertyQualifier>
+<ns2:propertyName>wsaTo</ns2:propertyName>
+<ns2:propertyValue>urn:services-qad-com:aspgqueryqxi</ns2:propertyValue>
+</ns2:ttContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>QAD</ns2:propertyQualifier>
+<ns2:propertyName>apiName</ns2:propertyName>
+<ns2:propertyValue>queryXxMasterComments</ns2:propertyValue>
+</ns2:ttContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>QAD</ns2:propertyQualifier>
+<ns2:propertyName>domain</ns2:propertyName>
+<ns2:propertyValue/>
+</ns2:ttContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>QAD</ns2:propertyQualifier>
+<ns2:propertyName>methodName</ns2:propertyName>
+<ns2:propertyValue>querySourceApplication</ns2:propertyValue>
+</ns2:ttContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>QAD</ns2:propertyQualifier>
+<ns2:propertyName>password</ns2:propertyName>
+<ns2:propertyValue/>
+</ns2:ttContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>QAD</ns2:propertyQualifier>
+<ns2:propertyName>programName</ns2:propertyName>
+<ns2:propertyValue>com/qad/qxtend/si/QueryService.p</ns2:propertyValue>
+</ns2:ttContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>QAD</ns2:propertyQualifier>
+<ns2:propertyName>username</ns2:propertyName>
+<ns2:propertyValue>qxtenda</ns2:propertyValue>
+</ns2:ttContext>
+<ns2:ttContext>
+<ns2:propertyQualifier>QAD</ns2:propertyQualifier>
+<ns2:propertyName>version</ns2:propertyName>
+<ns2:propertyValue>eB_1</ns2:propertyValue>
+</ns2:ttContext>
+</ns2:dsSessionContext>
+<ns1:boxxMasterComments>
+<ns1:cd_det>
+<ns1:table-rowid>AAAAAAMQfAo=</ns1:table-rowid>
+<ns1:cd_cmmt>SHIP VIA FEDERAL EXPRESS 2ND DAY - COLLECT</ns1:cd_cmmt>
+<ns1:cd_cmmt>ACCOUNT NO. 075208448</ns1:cd_cmmt>
+<ns1:cd_cmmt/>
+<ns1:cd_cmmt>FOB - ORIGIN</ns1:cd_cmmt>
+<ns1:cd_cmmt/>
+<ns1:cd_cmmt>*****************************************</ns1:cd_cmmt>
+<ns1:cd_cmmt>INDIVIDUAL PERFORMING OP195 MUST COMPLETE AND</ns1:cd_cmmt>
+<ns1:cd_cmmt>RETURN REPAIR TAG IF APPLICABLE</ns1:cd_cmmt>
+<ns1:cd_cmmt>******************************************</ns1:cd_cmmt>
+<ns1:cd_cmmt/>
+<ns1:cd_cmmt/>
+<ns1:cd_cmmt/>
+<ns1:cd_cmmt/>
+<ns1:cd_cmmt/>
+<ns1:cd_cmmt/>
+<ns1:cd_lang/>
+<ns1:cd_ref>58R-SOUTHFED</ns1:cd_ref>
+<ns1:cd_seq>0</ns1:cd_seq>
+<ns1:cd_type>SO</ns1:cd_type>
+</ns1:cd_det>
+</ns1:boxxMasterComments>
+</ns1:queryXxMasterCommentsResponse>
+</part>
+<part  name="messageID">
+<wsa:MessageID  soapenv:actor=""  soapenv:mustUnderstand="0">urn:messages-qad-com:2017-01-11T11:41:27-0500</wsa:MessageID>
+</part>
+<part  name="action">
+<wsa:Action  soapenv:actor=""  soapenv:mustUnderstand="0"/>
+</part>
+<part  name="relatesTo">
+<wsa:RelatesTo  soapenv:actor=""  soapenv:mustUnderstand="0">urn:services-qad-com:aspgqueryqxi</wsa:RelatesTo>
+</part>
+</QueryMasterCommentsAppRespMsg>
+</messages>
